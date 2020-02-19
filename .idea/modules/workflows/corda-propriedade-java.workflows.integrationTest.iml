@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":workflows:integrationTest" external.linked.project.path="$MODULE_DIR$/../../../workflows" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.template" external.system.module.type="sourceSet" external.system.module.version="0.1" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../../workflows/out/integrationTest/classes" />
+    <output url="file://$MODULE_DIR$/../../../workflows/build/classes/java/integrationTest" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../workflows/src/integrationTest">
       <sourceFolder url="file://$MODULE_DIR$/../../../workflows/src/integrationTest/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="com.template.contracts.main" />
-    <orderEntry type="module" module-name="com.template.workflows.main" />
-    <orderEntry type="module" module-name="com.template.workflows.test" production-on-test="" />
+    <orderEntry type="module" module-name="corda-propriedade-java.contracts.main" />
+    <orderEntry type="module" module-name="corda-propriedade-java.workflows.main" />
+    <orderEntry type="module" module-name="corda-propriedade-java.workflows.test" production-on-test="" />
     <orderEntry type="library" name="Gradle: net.corda:corda-node-driver:4.3" level="project" />
     <orderEntry type="library" name="Gradle: net.corda:corda-test-utils:4.3" level="project" />
     <orderEntry type="library" name="Gradle: net.corda:corda-test-common:4.3" level="project" />
@@ -215,8 +215,8 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.7" level="project" />
     <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.23" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.7" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.newrelic.agent.java:newrelic-api:3.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.7" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest:2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-jms_2.0_spec:1.0-alpha-2" level="project" />
     <orderEntry type="library" name="Gradle: com.github.corda.crash:crash.cli:810d2b774b85d4938be01b9b65e29e4fddbc450b" level="project" />

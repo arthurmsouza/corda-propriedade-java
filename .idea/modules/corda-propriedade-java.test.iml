@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="cordapp-template-java:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.template" external.system.module.type="sourceSet" external.system.module.version="0.1" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="corda-propriedade-java:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.template" external.system.module.type="sourceSet" external.system.module.version="0.1" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="com.template.cordapp-template-java.main" />
+    <orderEntry type="module" module-name="corda-propriedade-java.main" />
     <orderEntry type="library" name="Gradle: net.corda:corda-node-api:4.3" level="project" />
-    <orderEntry type="module" module-name="com.template.workflows.main" />
-    <orderEntry type="module" module-name="com.template.contracts.main" />
+    <orderEntry type="module" module-name="corda-propriedade-java.workflows.main" />
+    <orderEntry type="module" module-name="corda-propriedade-java.contracts.main" />
     <orderEntry type="library" name="Gradle: net.corda:corda-serialization:4.3" level="project" />
     <orderEntry type="library" name="Gradle: net.corda:corda-core:4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.11.2" level="project" />
@@ -110,5 +110,5 @@
     <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-jms_2.0_spec:1.0-alpha-2" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.6" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="com.template.cordapp-template-java.main" />
+  <component name="TestModuleProperties" production-module="corda-propriedade-java.main" />
 </module>
